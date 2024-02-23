@@ -1,0 +1,271 @@
+.nav{
+    background-color:#f7f8f8;
+}
+
+.links .OLX{
+    color: #3a77ff;
+    font-size: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color:  gray;
+    margin-left: 25px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+
+.header-logo img{
+    width: 70px;
+    object-fit: contain;
+}
+
+.head-input input{
+    border: 2px solid #002f34;
+    margin-left: 35px;
+}
+
+ .input-1{
+    width: 250px;
+    height: 40px;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+ .input-2{
+    width: 500px;
+    height: 40px;
+    padding: 15px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search{
+    background-color: #002f34;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.login a{
+    color: #002f34;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 35px;
+}
+.login{
+    margin-top: 16px;
+}
+.SELL{
+    text-decoration: none;
+    border: 5px solid;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border-color:  aqua blue yellow yellow;
+
+}
+
+.all-cate{
+    display: flex;
+    align-items: center;
+}
+
+.cate-1{
+    color: #002f34;
+}
+
+.cate-2 ul,.cate-2 ul a{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-top: 6.5px;
+    text-decoration: none;
+    color: #002f34;
+    font-weight: 450;
+}
+
+.sub-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.sub-images img{
+    width: 90px;
+}
+
+.img-1 h5,.img-2 h5,.img-3 h5,.img-4 h5,.img-5 h5,.img-6 h5,.img-7 h5,.img-8 h5,.img-9 h5,.img-10 h5,.img-11 h5,.img-12 h5,.img-13 h5,.img-14 h5{
+    text-align: center;
+}
+
+.card{
+    margin-bottom: 15px;
+}
+
+.footer-img{
+    margin-bottom: 20px;
+}
+
+.text-3 h5{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #002f34;
+}
+.text-3 p{
+    font-size: 14px;
+}
+.text-3 .socials-icons{
+    width: 25px;
+}
+
+.m-left{
+    margin-left: 25px;
+}
+
+@media screen  and (max-width:1400px){
+    .head-input .input-1{
+        display: none;
+    }
+}
+
+
+@media screen  and (max-width:768px){
+    .head-input .input-1{
+        display: none;
+    }
+
+    .head-input .input-2{
+        width: 450px;
+        margin-top: 15px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+
+   
+}
+
+@media screen  and (max-width:500px){
+    .head-input .input-1{
+        display: none;
+    }
+
+    .head-input .input-2{
+        width: 380px;
+        margin-top: 15px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+
+   
+}
+
+@media screen  and (max-width:450px){
+    .head-input .input-1{
+        display: none;
+    }
+
+    .head-input .input-2{
+        width: 320px;
+        margin-top: 15px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+}
+@media screen  and (max-width:400px){
+    .head-input .input-1{
+        display: none;
+    }
+
+    .head-input .input-2{
+        width: 290px;
+        margin-top: 15px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+
+    .sub-images img{
+        width: 110px;
+    }
+    .main-logo img{
+        width: 220px;
+    }
+}
+
+
+@media screen  and (max-width:350px){
+    .carts .card{
+        justify-content: center;
+    }
+    .head-input .input-2{
+        width: 270px;
+        margin-top: 15px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+   
+}
+
+@media screen  and (max-width:415px){
+    .sub-images img{
+        width: 130px;
+    }
+    .main-logo img{
+        width: 250px;
+    }
+   
+    
+   
+
+    
+}
+@media screen  and (max-width:512px){
+    .sub-images{
+        justify-content: center;
+    }
+    .main-logo img{
+        width: 300px;
+    }
+    body{
+        max-width: 100%;
+        height: 100vh;
+    }
+
+    
+}
+
+@media screen  and (max-width:280px){
+    .sub-images img{
+        width: 200px;
+    }
+
+                                      
+    .main-logo img{
+        display: none;
+    }
+    .head-input .input-2{
+        width: 200px;
+        margin-top: 15px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+}
+@media screen  and (max-width:330px){
+    .sub-images img{
+        width: 200px;
+    }
+
+                                      
+    .main-logo img{
+        display: none;
+    }
+   
+}
+
+@media screen  and (max-width:992px){
+    .search{
+        display: none;
+    }
+}
